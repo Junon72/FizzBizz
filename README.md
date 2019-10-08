@@ -30,7 +30,7 @@ Write a set of tests that pass in various values to the FizzBuzz function and en
 describe('FizzBuzz game', function() {
     describe("Number to divide", function() {
         it("should be divisible by 3", function() {
-            expect(fizzBuzz(9%3)).toBe("Fizz");
+            expect(fizzBuzz(9)).toBe("Fizz");
         });
     });
 });
@@ -38,3 +38,11 @@ describe('FizzBuzz game', function() {
 Test results failure - fizzBuzz is not defined
 
 3.  Write the FizzBuzz function in calc.js
+```
+fizzBuzz = function(number) {
+    return "Fizz";
+};
+```
+Test result 1 spec, 0 failure
+
+4.  
