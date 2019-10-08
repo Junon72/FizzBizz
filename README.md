@@ -14,3 +14,27 @@ FizzBuzz is a classic programming problem that is often asked as an interview qu
 -   Else just return the number
 
 Write a set of tests that pass in various values to the FizzBuzz function and ensure that the function meets the above requirements. Make sure that you test all different "types" of inputs that the function may receive.
+
+###Steps:
+1.  Described the FizzBuzz game
+
+        a. Testing if number is divisible by 3 and 5, 3 or 5
+        b. Want to see result 0
+        c. Expecting 9 % 3 to return "Fizz"
+        d. Expecting 10 % 5 to return "Buzz"
+        e. Expecting 15 % 3 & to return "FizzBuzz"
+
+2.  Translated to a code in calc.js
+        (fizzBuzz 9, 3).toBe("Fizz")
+```
+describe('FizzBuzz game', function() {
+    describe("Number to divide", function() {
+        it("should be divisible by 3", function() {
+            expect(fizzBuzz(9%3)).toBe("Fizz");
+        });
+    });
+});
+```
+Test results failure - fizzBuzz is not defined
+
+3.  Write the FizzBuzz function in calc.js
