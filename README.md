@@ -45,4 +45,9 @@ fizzBuzz = function(number) {
 ```
 Test result 1 spec, 0 failure
 
-4.  
+4.  Complemented the test suit in calcSpec.js to include modulus 5 and 3 & 5, not a number and not an Integer
+
+Test result 5 specs, 4 failures
+
+5. Complemented BizzFuzz game function to reflect the test specs
+
