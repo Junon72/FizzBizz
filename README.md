@@ -51,11 +51,8 @@ Test result 5 specs, 4 failures
 
 5. Complemented BizzFuzz game function to reflect the test specs
 
-<<<<<<< HEAD
 Test result 5 spec, 0 failures
-=======
 Test result 5 spec, 0 failures  
->>>>>>> 3ae7131518d8064bdb0421af0c966acd51a20605
 FizzBuzz game
 
 
