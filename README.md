@@ -52,10 +52,10 @@ Test result 5 specs, 4 failures
 5. Complemented BizzFuzz game function to reflect the test specs
 
 Test result 5 spec, 0 failures..
-FizzBuzz game..
-...number you gave..
-...should be divisible by 3..
-...should be deivisible by 5..
-...should be divisible by 3 and 5..
-...is not a number at all, and cannot be divided..
-...is not an integer..
+FizzBuzz game
+   number you gave  
+   should be divisible by 3  
+   should be deivisible by 5  
+   should be divisible by 3 and 5  
+   is not a number at all, and cannot be divided  
+   is not an integer  
