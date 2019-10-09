@@ -14,6 +14,6 @@ fizzBuzz = function (number) {
     else if (Number.isInteger(number) !== true) {
         return "Not an Integer";
     } else{
-        alert("Try again with a number!");
+        alert("Try again with another number!");
     }
 };
