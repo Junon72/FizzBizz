@@ -24,7 +24,7 @@ Write a set of tests that pass in various values to the FizzBuzz function and en
         d. Expecting 10 % 5 to return "Buzz"
         e. Expecting 15 % 3 & to return "FizzBuzz"
 
-2.  Translated to a code in calc.js
+2.  Translated to a code in calc.js, divisible wit h3 as a starting point
         (fizzBuzz 9, 3).toBe("Fizz")
 ```
 describe('FizzBuzz game', function() {
@@ -51,3 +51,4 @@ Test result 5 specs, 4 failures
 
 5. Complemented BizzFuzz game function to reflect the test specs
 
+Test result 5 spec, 0 failures
